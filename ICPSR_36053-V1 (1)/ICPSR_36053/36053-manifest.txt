@@ -1,0 +1,85 @@
+File Manifest for ICPSR 36053
+
+McArdle, John, Willard Rodgers, and Robert Willis. Cognition and Aging in
+the USA (CogUSA) 2007-2009. ICPSR36053-v1. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2015-04-16.
+http://doi.org/10.3886/ICPSR36053.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36053-descriptioncitation.pdf       -       -         -       2015-04-16  -
+
+    36053-related_literature.txt        -       -         -       daily       -
+
+    36053-manifest.txt                  -       -         -       daily       -
+
+    36053-Documentation-pi_doc.pdf      -       -         -       2015-04-16  a78bb0e675c0bd29a684f8cc14cafdb5
+
+
+DS0001 Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36053-0001-Codebook.pdf             -       -         -       2015-04-16  7ab3bfd742ee728e7c1fbf7768862948
+
+    36053-0001-Data.dta                 -       1,514     86      2015-04-16  db79def88cf921923d958cd44aa5e99e
+
+    36053-0001-Data.rda                 -       1,514     86      2015-04-16  afa95af16c83c9222b7e6379409c5433
+
+    36053-0001-Data.sav                 -       1,514     86      2015-04-16  72669e212589cc5a8f929a02bc26999b
+
+    36053-0001-Data.stc                 -       1,514     86      2015-04-16  682324305182bce87206a19964b9037e
+
+    36053-0001-Data.tsv                 -       1,514     86      2015-04-16  6301e656917dbb3369c3672d1783b234
+
+    36053-0001-Data.txt                 380     1,514     86      2015-04-16  69b6ac67d8df1739bff5270dd56648de
+
+    36053-0001-Setup.dct                -       -         -       2015-04-16  300ef0dd75478bdd3f05ffa80de1cdef
+
+    36053-0001-Setup.do                 -       -         -       2015-04-16  3cd26ba4b75f85f176d10b8a4f786286
+
+    36053-0001-Setup.sas                -       -         -       2015-04-16  f10ae21ee86f8b3860104dd38d683051
+
+    36053-0001-Setup.sps                -       -         -       2015-04-16  60b14abb304e28952d822ef7d4b6ac8d
+
+    36053-0001-Supplemental_syntax.do   -       -         -       2015-04-16  64f5f870577a64926a126fc58ee6fca2
+
+    36053-0001-Supplemental_syntax.sas  -       -         -       2015-04-16  087901f02d1dccb122a62bc283d9e311
+
+
+DS0002 Test Score Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36053-0002-Codebook.pdf             -       -         -       2015-04-16  33c3fd6a8f8528f3d0007e630d5275b5
+
+    36053-0002-Data.dta                 -       1,514     260     2015-04-16  855574ff47e461626fd174505ae15f6a
+
+    36053-0002-Data.rda                 -       1,514     260     2015-04-16  f2017a1029d3aea31a2c8f4f9c5bc741
+
+    36053-0002-Data.sav                 -       1,514     260     2015-04-16  05c84032b3e8c197332c9bec14a56d42
+
+    36053-0002-Data.stc                 -       1,514     260     2015-04-16  eb238dd4cef9a0f5be5f493e3e8ba6e6
+
+    36053-0002-Data.tsv                 -       1,514     260     2015-04-16  9a7a07c31e8286c533ee993d956d17d8
+
+    36053-0002-Data.txt                 1027    1,514     260     2015-04-16  f7d359703e9348f4e902216ec5627361
+
+    36053-0002-Setup.dct                -       -         -       2015-04-16  078d61908045df000cbca1209110937d
+
+    36053-0002-Setup.do                 -       -         -       2015-04-16  a3ba2764af6c7e73c6392110b146d2eb
+
+    36053-0002-Setup.sas                -       -         -       2015-04-16  fa29eb41127ff12dce94791410374bcf
+
+    36053-0002-Setup.sps                -       -         -       2015-04-16  667f871bc26d432934efc7f38d2a4a27
+
+    36053-0002-Supplemental_syntax.do   -       -         -       2015-04-16  c40141f97b40307a93b76c107563a1a6
+
+    36053-0002-Supplemental_syntax.sas  -       -         -       2015-04-16  c48b7eacc5a29e63e556a1a889e7c50e
+
