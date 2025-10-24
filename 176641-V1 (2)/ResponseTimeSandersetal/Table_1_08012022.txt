@@ -1,0 +1,20 @@
+	(1)	(2)	(3)	(4)
+	Round 2	Round 2	Round 3	Round 3
+VARIABLES	moca_sa	moca_sa	moca_sa_w3	moca_sa_w3
+				
+pc1_demeaned		-0.693***	-0.847***	-0.367***
+		(0.0508)	(0.0581)	(0.0476)
+moca_sa_demeaned				0.688***
+				(0.0196)
+age_demeaned	-0.129***	-0.104***	-0.185***	-0.112***
+	(0.0106)	(0.0103)	(0.0118)	(0.00945)
+Constant	15.85***	15.24***	18.75***	17.55***
+	(1.240)	(1.190)	(2.402)	(1.884)
+				
+Observations	2,209	2,209	2,209	2,209
+R-squared	0.239	0.301	0.381	0.620
+Interviewer FE	YES	YES	YES	YES
+Mean Dep. Var	14.57	14.57	13.9	13.9
+Standard Error	( .0664 )	( .0636 )	( .0694 )	( .0545 )
+Standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
