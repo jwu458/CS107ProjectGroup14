@@ -1,0 +1,24 @@
+	(1)	(2)
+	ALL	ALL
+VARIABLES	walk_time_w3	t_consent3
+		
+walk_time_w2_d	0.322***	
+	(0.0276)	
+moca_sa_demeaned	-0.195***	-8.818***
+	(0.0356)	(2.119)
+pc1_demeaned	0.195**	8.668*
+	(0.0843)	(5.162)
+age_demeaned	0.162***	4.668***
+	(0.0173)	(1.020)
+t_consent_d		0.0636**
+		(0.0283)
+Constant	12.43***	710.0***
+	(3.180)	(203.2)
+		
+Observations	1,982	2,207
+R-squared	0.475	0.674
+Interviewer FE	YES	YES
+Mean Dep. Var	10.29	280.34
+Standard Error	( .0955 )	( 5.88 )
+Standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		
