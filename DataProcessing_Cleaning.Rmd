@@ -14,6 +14,9 @@ uncleanData <- read_tsv("participants.tsv")
 
 
 ```{r}
-uncleanData <- uncleanData[,!names(uncleanData) %in% c("HbA1c", "sex", "bodyweight")]
+cleanData <- uncleanData[,!names(uncleanData) %in% c("HbA1c", "sex", "bodyweight")]
+names(cleanData)[names(cleanData) == "Age"] <- "age"
+names(cleanData)[names(cleanData) == "BMI"] <- "bmi"
+names(cleanData)[names(cleanData) == "HOMA"] <- "homa"
 ```
 
