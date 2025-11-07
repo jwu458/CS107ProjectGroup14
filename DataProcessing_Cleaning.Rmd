@@ -11,7 +11,7 @@ source("00_requirements.R")
 uncleanData <- read_tsv("participants.tsv")
 ```
 
-
+Changes column names to a more uniform syntaxing for easier reference and removes unused varaiables from the dataset.
 
 ```{r}
 cleanData <- uncleanData[,!names(uncleanData) %in% c("HbA1c", "sex", "bodyweight")]
