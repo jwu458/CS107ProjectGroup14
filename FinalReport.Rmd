@@ -10,13 +10,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Abstract
 
+- Main question + summary of conclusion
+
 ## Introduction
+
+- Purpose of analysis
+- Main question
+- Who may this analysis benefit?
+- Are we trying to train a model, test a hypothesis, classify objects? Why?
 
 ## Data
 
+- What's the data being used?
+- Source of data
+- Variables and number of observations?
+- Steps performed to clean the data
+- Will the data be generated through a randomized simulation?
+
 ## Visualization
 
+- Prelim visualization
+- What do they suggest about the hypothesis, model, or sim we are trying to perform?
+
 ## Analysis
+
+- Prelim plans of what analysis we aim to complete
+- Any models, tests, procedures, expected outcomes?
 
 ## Conclusions
 
