@@ -11,6 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Abstract
 
 - Main question + summary of conclusion
+- Objective, methods, results, conclusions
+
+Brain aging is a natural process that is linked to reduced cognitive abilities, brain volume and neurochemical activity. Can keeping a healthy weight and lower insulin resistance help prevent brain aging? To answer this question, we conducted an analysis on 
+
 
 ## Introduction
 
@@ -19,6 +23,13 @@ knitr::opts_chunk$set(echo = TRUE)
 - Who may this analysis benefit?
 - Are we trying to train a model, test a hypothesis, classify objects? Why?
 
+As we continue to age and develop, our brain does too. According to the National Institute of Aging (NIA), brain aging is a natural process that happens over time that affects cognitive function. Although brain aging is inevitable throughout our lives, there are ways to slow the process down to keep the brain young.[Background info leading into main question]
+
+[explain main question + Benefits of analysis] 
+
+[Describe tests, lead into data section]
+
+
 ## Data
 
 - What's the data being used?
@@ -26,6 +37,8 @@ knitr::opts_chunk$set(echo = TRUE)
 - Variables and number of observations?
 - Steps performed to clean the data
 - Will the data be generated through a randomized simulation?
+
+To perform our analysis, we used data from an fMRI study of the aging brain in acute ketosis, which was found from openneuro.org, an open-source platform with public datasets containing neuroimaging data. Our data consists of 101 participants, aged 21-79, with the variables, participant_id, age, sex, BMI, bodyweight, fasting insulin, HbA1C, and HOMA. To clean the data, we removed the variables irrelevant to our analysis (sex, bodyweight, and HbA1C) and lower-cased the names of the variables leftover for easier reference. 
 
 ## Visualization
 
