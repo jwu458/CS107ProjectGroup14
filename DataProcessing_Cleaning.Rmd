@@ -27,12 +27,13 @@ HOMA is a score combining glucose + insulin. when HOMA is high that means bad gl
 with hypothesis1: "if age is older then HOMA will be increase", created scatter plot to visualize the age relate to HOMA.
 
 ```{r}
-plot(x = cleanData$BMI , y = cleanData$Age, xlab = "age", ylab = "HOMA")
+plot(x = cleanData$Age , y = cleanData$HOMA , xlab = "age", ylab = "HOMA")
 
 abline(h = 2.5, col = "red")
 
 ```
-According to scatter plot of age and HOMA, we can observe older the age, HOMA increases as well.
+According to scatter plot of age and HOMA, we can observe HOMA is not really affected by age.
+Red line indicates high HOMA which means faster aging, yet data shows HOMA is not really related to age.
 
 
 Hypothesis2: if BMI is  higher, does HOMA increases as well.
