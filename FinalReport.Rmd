@@ -10,20 +10,40 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Abstract
 
-Brain aging is a natural process that is linked to reduced cognitive abilities, brain volume and neurochemical activity. There are many ways to slow this process down, one of them being diet. The question we seek to answer is "Can keeping a healthy weight and lower insulin resistance help prevent brain aging?". To answer this question, we conducted an analysis on data from an fMRI study of the aging brain on acute ketosis, using scatterplots to see if BMI vs HOMA and age vs HOMA are related.
+Brain aging is a natural process that is linked to reduced cognitive abilities, brain volume and neurochemical activity. There are many ways to slow this process
+down, one of them being diet. The question we seek to answer is "Can keeping a healthy weight and lower insulin resistance help prevent brain aging?". To answer
+this question, we conducted an analysis on data from an fMRI study of the aging brain on acute ketosis, using scatterplots to see if BMI vs HOMA and age vs HOMA
+are related.
 
 ## Introduction
 
+<<<<<<< HEAD
 As we continue to age and develop, our brain does too. According to the National Institute of Aging (NIA), brain aging is a natural process that happens over time that affects cognitive function. Although brain aging is inevitable throughout our lives, there are ways to slow the process down like getting an adequate amount of sleep, effectively managing stress, and engaging in mentally stimulating activities. For our report, we plan to look into how diet can play a factor in brain aging. The question we seek to answer in our analysis is "Can keeping a healthy weight and lower insulin resistance help prevent brain aging?". 
+=======
+As we continue to age and develop, our brain does too. According to the National Institute of Aging (NIA), brain aging is a natural process that happens over time
+that affects cognitive function. Although brain aging is inevitable throughout our lives, there are ways to slow the process down like . For our report, we plan to
+look into how diet can play a factor in brain aging. The question we seek to answer in our analysis is "Can keeping a healthy weight and lower insulin resistance
+help prevent brain aging?". 
+>>>>>>> 377c86a70e6d17035972980ca03c68263dd7eb70
 
-Our analysis may benefit anyone who is concerned about their aging brain and want to keep their brains young and healthy for longer than average. It would be especially beneficial for older and elderly adults since they are more prone to having neurodegenerative diseases like Alzheimer's and Parkinson's disease.
+Our analysis may benefit anyone who is concerned about their aging brain and want to keep their brains young and healthy for longer than average. It would be
+especially beneficial for older and elderly adults since they are more prone to having neurodegenerative diseases like Alzheimer's and Parkinson's disease.
 
-To answer our question, we plan to use the data from an fMRI study of the aging brain in acute ketosis. We plan to create scatterplots from the data to analyze the relationship between BMI vs HOMA and age vs HOMA. 
+To answer our question, we plan to use the data from an fMRI study of the aging brain in acute ketosis. We plan to create scatterplots from the data to analyze the
+relationship between BMI vs HOMA and age vs HOMA. 
 
 
 ## Data
 
+<<<<<<< HEAD
 To perform our analysis, we used data from an fMRI study of the aging brain in acute ketosis, which was found from openneuro.org, an open-source platform with public datasets containing neuroimaging data. The study involved scanning participants in a fasted state before and after they were administered insulin or glucose bolus based on body weight. Our data consists of 101 participants, aged 21-79, with the variables, participant_id, age, sex, BMI, bodyweight, fasting insulin, HbA1C, and HOMA. To clean the data, we removed the variables irrelevant to our analysis (sex, bodyweight, and HbA1C). 
+=======
+To perform our analysis, we used data from an fMRI study of the aging brain in acute ketosis, which was found from openneuro.org, an open-source platform with
+public datasets containing neuroimaging data. The study involved scanning participants in a fasted state before and after they were administered insulin or glucose
+bolus based on body weight. Our data consists of 101 participants, aged 21-79, with the variables, participant_id, age, sex, BMI, bodyweight, fasting insulin,
+HbA1C, and HOMA. To clean the data, we removed the variables irrelevant to our analysis (sex, bodyweight, and HbA1C) and lower-cased the names of the variables
+leftover for easier reference. 
+>>>>>>> 377c86a70e6d17035972980ca03c68263dd7eb70
 
 ## Visualization
 
