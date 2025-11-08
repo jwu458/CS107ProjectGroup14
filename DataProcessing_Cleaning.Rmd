@@ -36,7 +36,7 @@ abline(h = 2.5, col = "red")
 
 ```
 According to scatter plot of age and HOMA, we can observe HOMA is not really affected by age.
-Red line indicates high HOMA which means faster aging, yet data shows HOMA is not really related to age.
+Red line indicates high HOMA; HOMA > 2.5 which means faster aging, yet data shows HOMA is not really related to age.
 
 
 Hypothesis2: if BMI is  higher, does HOMA increases as well.

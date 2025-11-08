@@ -29,11 +29,21 @@ To perform our analysis, we used data from an fMRI study of the aging brain in a
 
 - Prelim visualization
 - What do they suggest about the hypothesis, model, or sim we are trying to perform?
+Our data includes word HOMA, BMI.
+HOMA is a score combining glucose + insulin. Higher the HOMA = Bad glucose fuel.
+Bad glucose fuel = higher insulin resistance.
+-Brain's activity is depends on glucose, its main fuel source. if we have bad glucose fuel, it leads to brain aging faster.
+We had two hypothesis. first one is "if age is older then HOMA will be increase"
+
 
 ## Analysis
 
 - Prelim plans of what analysis we aim to complete
 - Any models, tests, procedures, expected outcomes?
+
+Expected outcomes for age & HOMA, we are expecting older the age = higher the HOMA for hypothesis 1, and 
+for BMI & HOMA, we are expecting higher the BMI = higher the HOMA
+according to data we have and visualized scatter plot graph, we could observe age is not really related to HOMA, yet BMI is relevant to HOMA. As BMI increases, HOMA increases as well.
 
 ## Conclusions
 
