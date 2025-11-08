@@ -25,8 +25,13 @@ To answer our question, we plan to use the data from an fMRI study of the aging 
 
 To perform our analysis, we used data from an fMRI study of the aging brain in acute ketosis, which was found from openneuro.org, an open-source platform with public datasets containing neuroimaging data. The study involved scanning participants in a fasted state before and after they were administered insulin or glucose bolus based on body weight. Our data consists of 101 participants, aged 21-79, with the variables, participant_id, age, sex, BMI, bodyweight, fasting insulin, HbA1C, and HOMA. To clean the data, we removed the variables irrelevant to our analysis (sex, bodyweight, and HbA1C). 
 
-## Visualization
+```{r}
+source("00_requirements.r")
+source("DataProcessing_Cleaning.R")
+```
 
+<<<<<<< HEAD
+=======
 - Prelim visualization
 - What do they suggest about the hypothesis, model, or sim we are trying to perform?
 Our data includes word HOMA, BMI.
@@ -35,11 +40,40 @@ Bad glucose fuel = higher insulin resistance.
 -Brain's activity is depends on glucose, its main fuel source. if we have bad glucose fuel, it leads to brain aging faster.
 We had two hypothesis. first one is "if age is older then HOMA will be increase"
 
+>>>>>>> 2b2eaac1bd5584e0618016d87e92d3993afab768
 
-## Analysis
+## Visualization and Analysis
 
-- Prelim plans of what analysis we aim to complete
-- Any models, tests, procedures, expected outcomes?
+HOMA is a score combining glucose + insulin. when HOMA is high that means bad glucose fuel(insulin resistance) which can relate to brain aging.
+
+Hypothesis1: "if age is older then HOMA will be increase"
+
+Create scatter plot to visualize the age relate to HOMA.
+
+```{r}
+
+```
+
+
+According to scatter plot of age and HOMA, we can observe HOMA is not really affected by age.
+Red line indicates high HOMA which means faster aging, yet data shows HOMA is not really related to age.
+
+
+Hypothesis2: if BMI is  higher, does HOMA increases as well.
+
+Create the scatter plot displays BMI with HOMA.
+
+```{r}
+
+```
+
+
+Shows higher the BMI, HOMA tends to increase as well.
+Red line indicates high HOMA. According to scatter plot, as BMI increases, HOMA increases as well.
+
+high HOMA which can be high insulin resistance = glucose fuel less efficiently
+- brain's activity is depends on glucose, its main fuel source.
+- less efficient it is, there is high possibility that brain can aging faster.
 
 Expected outcomes for age & HOMA, we are expecting older the age = higher the HOMA for hypothesis 1, and 
 for BMI & HOMA, we are expecting higher the BMI = higher the HOMA
