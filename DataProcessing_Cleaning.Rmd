@@ -24,37 +24,3 @@ print(cleanData)
 ```
 
 
-HOMA is a score combining glucose + insulin. when HOMA is high that means bad glucose fuel(insulin resistance) which can relate to brain aging.
-
-Hypothesis1: "if age is older then HOMA will be increase"
-
-Create scatter plot to visualize the age relate to HOMA.
-
-```{r}
-plot(x = cleanData$Age , y = cleanData$HOMA , xlab = "age", ylab = "HOMA")
-
-abline(h = 2.5, col = "red")
-```
-
-
-According to scatter plot of age and HOMA, we can observe HOMA is not really affected by age.
-Red line indicates high HOMA; HOMA > 2.5 which means faster aging, yet data shows HOMA is not really related to age.
-
-
-Hypothesis2: if BMI is  higher, does HOMA increases as well.
-
-Create the scatter plot displays BMI with HOMA.
-
-```{r}
-plot(x = cleanData$BMI , y = cleanData$HOMA, xlab = "BMI", ylab = "HOMA")
-
-abline(h = 2.5, col = "red")
-```
-
-
-Shows higher the BMI, HOMA tends to increase as well.
-Red line indicates high HOMA. According to scatter plot, as BMI increases, HOMA increases as well.
-
-high HOMA which can be high insulin resistance = glucose fuel less efficiently
-- brain's activity is depends on glucose, its main fuel source.
-- less efficient it is, there is high possibility that brain can aging faster.

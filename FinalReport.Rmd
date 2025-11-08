@@ -20,6 +20,26 @@ Our analysis may benefit anyone who is concerned about their aging brain and wan
 
 To answer our question, we plan to use the data from an fMRI study of the aging brain in acute ketosis. We plan to create scatterplots from the data to analyze the relationships between BMI vs HOMA and age vs HOMA. 
 
+##Data Processing and Cleaning
+
+Import required Libraries through the requirements.R file and import uncleaned data.
+```{r setup, include=FALSE}
+source("00_requirements.R")
+uncleanData <- read_tsv("participants.tsv")
+```
+
+Changes column names to a more uniform syntaxing for easier reference and removes unused varaiables from the dataset.
+
+```{r}
+
+cleanData <- uncleanData[,!names(uncleanData) %in% c("HbA1c", "sex", "bodyweight")]
+names(cleanData)[names(cleanData) == "fasting insulin"] <- "Fasting Insulin"
+names(cleanData)[names(cleanData) == "age"] <- "Age"
+names(cleanData)[names(cleanData) == "participant_id"] <- "Participant_ID"
+
+print(cleanData)
+```
+
 
 ## Data
 
@@ -50,7 +70,11 @@ Hypothesis1: "if age is older then HOMA will be increase"
 
 Create scatter plot to visualize the age relate to HOMA.
 
+
 ```{r}
+plot(x = cleanData$Age , y = cleanData$HOMA , xlab = "age", ylab = "HOMA", main = "Graph of Age and HOMA", sub = "how age is related to HOMA")
+
+abline(h = 2.5, col = "red")
 
 ```
 
@@ -64,6 +88,9 @@ Hypothesis2: if BMI is  higher, does HOMA increases as well.
 Create the scatter plot displays BMI with HOMA.
 
 ```{r}
+plot(x = cleanData$BMI , y = cleanData$HOMA, xlab = "BMI", ylab = "HOMA", main = "Graph of HOMA and BMI", sub = "How BMI is affecting HOMA")
+
+abline(h = 2.5, col = "red")
 
 ```
 
