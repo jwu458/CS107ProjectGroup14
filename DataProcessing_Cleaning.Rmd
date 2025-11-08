@@ -24,7 +24,10 @@ print(cleanData)
 ```
 
 HOMA is a score combining glucose + insulin. when HOMA is high that means bad glucose fuel(insulin resistance) which can relate to brain aging.
-with hypothesis1: "if age is older then HOMA will be increase", created scatter plot to visualize the age relate to HOMA.
+
+Hypothesis1: "if age is older then HOMA will be increase"
+
+Create scatter plot to visualize the age relate to HOMA.
 
 ```{r}
 plot(x = cleanData$Age , y = cleanData$HOMA , xlab = "age", ylab = "HOMA")
