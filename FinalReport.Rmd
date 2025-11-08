@@ -40,7 +40,7 @@ To perform our analysis, we used data from an fMRI study of the aging brain in a
 
 ## Member Contribution
 
-Jonathan Wu - Cleaning, ReadME
-Sung Woo - Data Visualization
+Jonathan Wu - Formatting, Cleaning, ReadME
+Sung Woo - Data Visualization, Analysis
 Christie Wong - Report(Abstract, Intro, Data)
 
